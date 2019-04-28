@@ -1,0 +1,127 @@
+$font-size:37.5px;
+@function rem($px){
+    @return $px / $font-size *1rem;
+}
+
+.header{
+    width: 100%;
+    height: rem(44px);
+    background: #e2e2e2;;
+    display: flex;
+
+    .header-left{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span{
+            background: orange;
+            color: #fff;
+             padding:1% 2%;
+             font-size: 18px;
+        }
+  
+    }
+    .header-center{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        span{
+            width: 17%;
+            height: 100%;;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+         span:nth-child(2){
+             margin-left: 20%;
+         }
+        .router-link-exact-active{
+            color: orange;
+            border-bottom: 2px solid orange;
+        }
+        font-size: 16px;
+     
+    }
+    .header-right{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         color: #fff;
+         i{
+                  font-size: 18px;
+         }
+    }
+
+
+
+
+     .header-left1{
+        width: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .left1{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            flex: 1;
+            color:#999;
+        }
+    }
+    .header-center1{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        .center1{
+            width:100%;
+            background: #fff;
+            flex: 1;
+            height:75%;
+            display: flex;
+             align-items: center;
+            i{
+                width: 10%;
+                border-right: 1px solid #ccc;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;;
+            }
+        }
+        input{
+            border:0;
+           width: 80%;
+           height: 80%;;
+           margin-left: 2%;
+            
+        }
+        input::placeholder{
+            font-size: 15px;
+        }
+    }
+    .header-right1{
+        width: 16%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .right1{
+            display: flex;
+            background: #fff;
+            width: 75%;
+            height: 75%;;
+            justify-content: center;
+            align-items: center;
+            border-left: 1px solid #ccc;
+            color: #999;
+            font-size: 16px;
+        }
+    }
+}

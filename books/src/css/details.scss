@@ -1,0 +1,97 @@
+.header-center1 {
+    font-size: 18px;
+  }
+  .header-right1 i {
+    font-size: 20px;
+  }
+  .main {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    overflow: auto;
+  }
+  .main-details {
+    width: 100%;
+  }
+  .details-box {
+    width: 90%;
+    margin: 5% auto;
+    .cloClass {
+      display: flex;
+      dt{
+          width: 30%;
+          height: 80%;
+          img{
+              width: 100%;
+              height:100%;
+          }
+      }
+      dd{
+         width: 50%;
+         margin-left: 10%;
+         line-height: 25px;
+         font-size: 15px;
+         .title{
+             font-size: 18px;
+             font-weight: bold;
+         }
+         .score{
+             color: orange;
+             margin-top: 5%;
+         }
+      }
+    }
+    .details-caozuo{
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+  
+        span:nth-child(1){
+            display: flex;
+            width: 40%;
+             height: 35px;
+             background: orangered;
+             font-size: 18px;
+             color: #fff;
+             border-radius: 7px;
+             justify-content: center;
+             align-items: center;
+             flex: 1;
+        }
+         span:nth-child(2){
+            display: flex;
+            width: 40%;
+             height: 35px;
+             font-size: 18px;
+             border-radius: 7px;
+             justify-content: center;
+             align-items: center;
+               color: rgb(143, 143, 143);
+             border:1px solid #ccc;
+             margin-left: 1%;
+             flex: 1;
+        }
+    }
+    .miaoshu{
+        width: 100%;
+        margin-top: 5%;
+        p{
+            width: 100%;
+            font-size: 16px;
+            color: rgb(119, 118, 118);
+            line-height: 30px;
+        }
+        .news{
+            margin-top: 2%;
+            border-top:1px solid #ccc;
+            padding: 3% 0;
+            border-bottom:1px solid #ccc;
+        }
+    }
+  }
+
+  .error{
+      color: red;
+      font-size: 18px;
+  }
